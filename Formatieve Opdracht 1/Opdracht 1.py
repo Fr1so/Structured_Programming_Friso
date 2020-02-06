@@ -1,4 +1,5 @@
 def pyramidForLoop():
+    star = 0
     for star in range(0, 5):
         star += 1
         print(star * '*')
