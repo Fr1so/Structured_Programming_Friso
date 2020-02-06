@@ -1,2 +1,10 @@
 import random
-print(random.randint(0, 5))
+def randomness():
+    randomNumber = random.randint(1, 3)
+    while True:
+        inputNumber = int(input('Guess a number between 1 and 9: '))
+        if inputNumber == randomNumber:
+            print('You guessed', inputNumber,', which is the right number!')
+            break
+
+randomness()
