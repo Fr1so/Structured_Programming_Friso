@@ -5,7 +5,7 @@ def indexCheck():
     index = 0
     if len(string2) >= len(string1):
         for firstCharacter in string1:
-            if firstCharacter != string2[index]:
+            while firstCharacter != string2[index]:
                 print('The first difference is at index:', str(index))
                 break
             else:
