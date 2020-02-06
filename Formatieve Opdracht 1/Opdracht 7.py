@@ -1,3 +1,5 @@
+#Bron: https://stackoverflow.com/questions/8114355/loop-until-a-specific-user-input
+
 import random
 def randomness():
     randomNumber = random.randint(1, 3)

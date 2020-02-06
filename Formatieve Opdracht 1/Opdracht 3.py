@@ -19,3 +19,22 @@ def biggestDifference():
     print('The difference between the smallest and the biggest number in the list is:', differenceNumber)
 
 biggestDifference()
+
+#Opdracht 3c
+onesAndZerosList = [0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1]
+
+def oneAndZero():
+    amountOne = onesAndZerosList.count(1)
+    amountZero = onesAndZerosList.count(0)
+
+    if amountOne > amountZero:
+        print('Amount of one (',amountOne,') is greater than the amount of zero (',amountZero,') in the list.')
+    else:
+        print('Amount of one (', amountOne, ') is smaller than the amount of zero (', amountZero, ') in the list.')
+
+    if amountZero > 12:
+        print('There are more than 12 zeros.')
+    else:
+        print('There are less than 12 zeros.')
+
+oneAndZero()
