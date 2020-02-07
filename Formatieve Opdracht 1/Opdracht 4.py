@@ -1,3 +1,5 @@
+#Bron: https://www.jquery-az.com/ways-reverse-string-python-reversed-extended-slice-objects/
+
 def palindrome():
     normalWord = str(input('Check if this word is a palindrome: '))
 

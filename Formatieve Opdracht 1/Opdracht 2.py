@@ -1,3 +1,5 @@
+#Kwam hier niet uit.
+
 def indexCheck():
 
     string1 = str(input('Input a string: '))

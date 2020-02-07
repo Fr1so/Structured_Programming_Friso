@@ -4,7 +4,7 @@ def pyramidForLoop():
         star += 1
         print(star * '*')
 
-    for epic in range(0, 5):
+    for weirdFix in range(0, 5):
         star -= 1
         print(star * '*')
 
